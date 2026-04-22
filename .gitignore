@@ -1,0 +1,18 @@
+
+# Cache files
+/__pycache__/
+
+/front-end/src/__pycache__/
+
+/model/data-generation/__pycache__/
+/model/data-generation/.env
+/model/data-generation/.cache
+
+/model/training-pipeline/__pycache__/
+/model/training-pipeline/genre_prediction_model/
+/model/training-pipeline/genre_prediction_model_2/
+/model/training-pipeline/predictions_csv/
+
+/model/data/.~lock.Merged_dataset.csv#
+
+.venv/
