@@ -6,7 +6,7 @@ from pyspark.sql import SparkSession
 
 st.set_page_config(page_title="Lyric Genre Predictor", page_icon="🎵", layout="wide")
 
-model_path = "../model_stage4_merged_Trans_way_new"
+model_path = "../model_stage4_merged"
 
 spark = (
     SparkSession.builder.appName("Genre Prediction").master("local[*]").getOrCreate()
